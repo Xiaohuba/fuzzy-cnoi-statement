@@ -207,9 +207,8 @@
     show rect: add-empty-par
     show block: add-empty-par
     
-    set par(first-line-indent: 2em, leading: 0.7em)
     // Looks right but I'm not sure about the exact value
-    show par: set block(below: 0.6em)
+    set par(first-line-indent: 2em, leading: 0.7em, spacing: 0.6em)
 
     it
   }
